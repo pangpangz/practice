@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圣杯布局</title>
+	<style>
+		*{padding: 0;margin: 0;}
+		.header,.footer{
+			float:left;
+			width: 100%;
+			background: #ddd;
+			height: 40px;
+			line-height: 40px;
+		}
+		.container{margin:0 200px 0 220px;}
+		.middle,.left,.right{
+			position: relative;
+			float: left;
+			min-height: 300px;
+		}
+		.middle{
+			width: 100%;
+			background: #1a5acd;
+		}
+		.left{
+			width:220px;
+			background: #f00;
+			margin-left: -100%;
+			left: -220px;
+			
+		}
+		.right{
+			width: 200px;
+			background: #30a457;
+			margin-left: -200px;
+			right: -200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h4>header</h4>
+		<p>这是头部</p>
+	</div>
+	<div class="container">
+		<div class="middle">内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字内容文字</div>
+		<div class="left">这是左边</div>
+		<div class="right">这是右边</div>
+	</div>
+	<div class="footer">
+		<h4>footer</h4>
+		<p>这是头底部</p>
+	</div>
+</body>
+</html>
